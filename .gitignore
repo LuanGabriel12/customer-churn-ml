@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testes, caches e logs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Configuração local e segredos
+.env
+.env.*
+!.env.example
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
