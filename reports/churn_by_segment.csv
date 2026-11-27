@@ -1,0 +1,32 @@
+dimensao,segmento,clientes,clientes_churn,taxa_churn_pct,tenure_medio_meses,cobranca_mensal_media,receita_mensal_total,receita_mensal_clientes_churn
+Tipo de Contrato,Month-to-month,3875,1655,42.71,18.04,66.4,257294.15,120847.1
+Tipo de Contrato,One year,1473,166,11.27,42.04,65.05,95816.6,14118.45
+Tipo de Contrato,Two year,1695,48,2.83,56.74,60.77,103005.85,4165.3
+Servico de Internet,Fiber optic,3096,1297,41.89,32.92,91.5,283284.4,114300.05
+Servico de Internet,DSL,2421,459,18.96,32.82,58.1,140665.35,22529.2
+Servico de Internet,No,1526,113,7.4,30.55,21.08,32166.85,2301.6
+Faixa de Permanencia,01. 0 a 12 meses,2186,1037,47.44,4.73,56.1,122629.75,68954.25
+Faixa de Permanencia,02. 13 a 24 meses,1024,294,28.71,18.35,61.36,62829.85,23081.65
+Faixa de Permanencia,03. 25 a 48 meses,1594,325,20.39,36.19,65.93,105093.3,27462.5
+Faixa de Permanencia,04. 49 a 72 meses,2239,213,9.51,63.05,73.95,165563.7,19632.45
+Faixa de Cobranca Mensal,"01. Ate US$ 35,00",1735,189,10.89,28.67,22.03,38217.15,4458.05
+Faixa de Cobranca Mensal,"02. US$ 35,01 a US$ 70,00",1725,413,23.94,26.87,54.84,94597.15,22181.8
+Faixa de Cobranca Mensal,"03. US$ 70,01 a US$ 90,00",1844,697,37.8,29.23,80.06,147630.8,55706.9
+Faixa de Cobranca Mensal,"04. Acima de US$ 90,00",1739,570,32.78,44.84,101.02,175671.5,56784.1
+Forma de Pagamento,Electronic check,2365,1071,45.29,25.17,76.26,180345.0,84288.75
+Forma de Pagamento,Mailed check,1612,308,19.11,21.83,43.92,70794.3,16803.6
+Forma de Pagamento,Bank transfer (automatic),1544,258,16.71,43.66,67.19,103745.45,20091.9
+Forma de Pagamento,Credit card (automatic),1522,232,15.24,43.27,66.51,101231.85,17946.6
+Faixa Etaria (SeniorCitizen),Idoso (SeniorCitizen=1),1142,476,41.68,33.3,79.82,91154.85,38419.6
+Faixa Etaria (SeniorCitizen),Nao idoso (SeniorCitizen=0),5901,1393,23.61,32.19,61.85,364961.75,100711.25
+Fatura Digital,Yes,4171,1400,33.57,32.5,73.55,306792.8,109510.0
+Fatura Digital,No,2872,469,16.33,32.19,51.99,149323.8,29620.85
+Contrato x Internet,Month-to-month + Fiber optic,2128,1162,54.61,21.55,87.02,185181.1,100482.0
+Contrato x Internet,Month-to-month + DSL,1223,394,32.22,15.73,50.22,61418.45,18367.25
+Contrato x Internet,One year + Fiber optic,539,104,19.29,52.1,98.78,53242.15,10571.95
+Contrato x Internet,Month-to-month + No,524,99,18.89,9.13,20.41,10694.6,1997.85
+Contrato x Internet,One year + DSL,570,53,9.3,40.49,61.4,34996.15,3356.25
+Contrato x Internet,Two year + Fiber optic,429,31,7.23,65.18,104.57,44861.15,3246.1
+Contrato x Internet,One year + No,364,9,2.47,29.6,20.82,7578.3,190.25
+Contrato x Internet,Two year + DSL,628,12,1.91,59.14,70.46,44250.75,805.7
+Contrato x Internet,Two year + No,638,5,0.78,48.68,21.78,13893.95,113.5

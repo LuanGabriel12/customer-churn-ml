@@ -1,0 +1,74 @@
+{
+  "nome_modelo": "Logistic Regression",
+  "algoritmo": "LogisticRegression",
+  "etapas_pipeline": [
+    "corrigir_total_charges",
+    "preprocessador",
+    "modelo"
+  ],
+  "versao_projeto": "2.0.0",
+  "treinado_em_utc": "2026-11-26T03:39:58Z",
+  "dataset_arquivo": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "dataset_sha256": "a0ea74c48c1063be89a73ce3fb868593604c0129f2bf581934f04983d728b3b5",
+  "registros_totais": 7043,
+  "registros_treino": 5634,
+  "registros_teste": 1409,
+  "test_size": 0.2,
+  "random_state": 42,
+  "cv_folds": 5,
+  "classe_positiva": "Yes",
+  "classe_negativa": "No",
+  "classes_modelo": [
+    "No",
+    "Yes"
+  ],
+  "quantidade_features": 19,
+  "features_esperadas": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "politica_categorias_desconhecidas": "Validacao estrita com Literal no schema Pydantic da API (HTTP 422); OneHotEncoder(handle_unknown='ignore') mantido na pipeline como defesa em profundidade.",
+  "versoes_bibliotecas": {
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "joblib": "1.6.0"
+  },
+  "metricas_validacao_cruzada": {
+    "accuracy_treino": 0.805599836909518,
+    "accuracy_validacao": 0.8042220579636595,
+    "recall_validacao": 0.5484949832775919,
+    "precision_validacao": 0.6576896316176918,
+    "f1_validacao": 0.5979882242724168
+  },
+  "metricas_teste_historico": {
+    "accuracy": 0.8055358410220014,
+    "recall": 0.5588235294117647,
+    "precision": 0.6572327044025157,
+    "f1": 0.6040462427745664,
+    "matriz_confusao": {
+      "TN": 926,
+      "FP": 109,
+      "FN": 165,
+      "TP": 209
+    }
+  },
+  "nota_metodologica": "O conjunto de teste historico (random_state=42, test_size=0.20) ja foi analisado na V1; por isso, nao foi usado para selecionar novos hiperparametros ou ajustar threshold.",
+  "modelo_sha256": "a5dc3df42dbe3180216c85aa97c5ae6df09f68c2fc46c6a140be7e7dea6ce35e"
+}
