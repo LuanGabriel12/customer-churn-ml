@@ -1,0 +1,5 @@
+modelo,cv_accuracy_treino,cv_accuracy_validacao,cv_recall_validacao,cv_precision_validacao,cv_f1_validacao,teste_accuracy,teste_recall,teste_precision,teste_f1,TN,FP,FN,TP
+DummyClassifier (most_frequent),0.7346,0.7346,0.0,0.0,0.0,0.7346,0.0,0.0,0.0,1035,0,374,0
+Logistic Regression,0.8056,0.8042,0.5485,0.6577,0.598,0.8055,0.5588,0.6572,0.604,926,109,165,209
+Decision Tree (sem limite),0.9984,0.7201,0.4849,0.4737,0.4789,0.7275,0.5053,0.4871,0.4961,836,199,185,189
+Decision Tree (max_depth=4),0.798,0.7872,0.4776,0.6423,0.542,0.7921,0.4519,0.6576,0.5357,947,88,205,169

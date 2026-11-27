@@ -1,0 +1,15 @@
+# Padroniza quebras de linha LF para arquivos de texto do repositorio entre Windows, Linux e git archive
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+
+# Preserva o dataset bruto byte a byte (formato canonico LF, sem qualquer conversao de fim de linha)
+data/WA_Fn-UseC_-Telco-Customer-Churn.csv -text
+
+# Artefatos binarios preservados sem alteracao
+*.joblib binary
+*.pkl binary
+*.png binary
+*.zip binary

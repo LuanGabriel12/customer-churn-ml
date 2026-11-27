@@ -1,0 +1,86 @@
+{
+  "DummyClassifier (most_frequent)": {
+    "validacao_cruzada": {
+      "accuracy_treino": 0.7346467852727956,
+      "accuracy_validacao": 0.7346467539058252,
+      "recall_validacao": 0.0,
+      "precision_validacao": 0.0,
+      "f1_validacao": 0.0
+    },
+    "teste": {
+      "accuracy": 0.7345635202271115,
+      "recall": 0.0,
+      "precision": 0.0,
+      "f1": 0.0,
+      "matriz_confusao": {
+        "TN": 1035,
+        "FP": 0,
+        "FN": 374,
+        "TP": 0
+      }
+    }
+  },
+  "Logistic Regression": {
+    "validacao_cruzada": {
+      "accuracy_treino": 0.805599836909518,
+      "accuracy_validacao": 0.8042220579636595,
+      "recall_validacao": 0.5484949832775919,
+      "precision_validacao": 0.6576896316176918,
+      "f1_validacao": 0.5979882242724168
+    },
+    "teste": {
+      "accuracy": 0.8055358410220014,
+      "recall": 0.5588235294117647,
+      "precision": 0.6572327044025157,
+      "f1": 0.6040462427745664,
+      "matriz_confusao": {
+        "TN": 926,
+        "FP": 109,
+        "FN": 165,
+        "TP": 209
+      }
+    }
+  },
+  "Decision Tree (sem limite)": {
+    "validacao_cruzada": {
+      "accuracy_treino": 0.9983581785132032,
+      "accuracy_validacao": 0.7200912212904313,
+      "recall_validacao": 0.48494983277591974,
+      "precision_validacao": 0.4737143060996252,
+      "f1_validacao": 0.47888548309848156
+    },
+    "teste": {
+      "accuracy": 0.7274662881476224,
+      "recall": 0.5053475935828877,
+      "precision": 0.48711340206185566,
+      "f1": 0.49606299212598426,
+      "matriz_confusao": {
+        "TN": 836,
+        "FP": 199,
+        "FN": 185,
+        "TP": 189
+      }
+    }
+  },
+  "Decision Tree (max_depth=4)": {
+    "validacao_cruzada": {
+      "accuracy_treino": 0.7979674917593436,
+      "accuracy_validacao": 0.7871809500694247,
+      "recall_validacao": 0.4775919732441471,
+      "precision_validacao": 0.6423458284021974,
+      "f1_validacao": 0.5419723312031351
+    },
+    "teste": {
+      "accuracy": 0.7920511000709723,
+      "recall": 0.45187165775401067,
+      "precision": 0.6575875486381323,
+      "f1": 0.5356576862123613,
+      "matriz_confusao": {
+        "TN": 947,
+        "FP": 88,
+        "FN": 205,
+        "TP": 169
+      }
+    }
+  }
+}

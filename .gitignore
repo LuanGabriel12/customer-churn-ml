@@ -17,6 +17,9 @@ env/
 .ruff_cache/
 *.log
 
+# Pacotes de entrega locais
+*.zip
+
 # Configuração local e segredos
 .env
 .env.*
@@ -28,3 +31,7 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Dados de terceiros e registros individuais gerados localmente
+data/WA_Fn-UseC_-Telco-Customer-Churn.csv
+reports/priority_customers_test.csv
